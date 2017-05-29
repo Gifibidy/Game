@@ -7,6 +7,8 @@ public class camera_move : MonoBehaviour {
 	public float Boundary = 50f;
 	public float speed = 15f;
 	public Vector3 temp;
+	public Vector3 origin;
+
 
 	public bool zoomInRange;
 	public bool zoomOutRange;
@@ -19,36 +21,43 @@ public class camera_move : MonoBehaviour {
 	private float ScreenHeight;
 	private Rigidbody rig;
 
-	// Use this for initialization
+
 	void Start () {
 		ScreenWidth = Screen.width;
 		ScreenHeight = Screen.height;
 		rig = GetComponent<Rigidbody> ();
+		origin = transform.position;
 	}
 
-	// Update is called once per frame
+
 	void Update () {
 
+		float hAxis = Input.GetAxis("Horizontal");
+		float vAxis = Input.GetAxis("Vertical");
+
+		Vector3 movement = new Vector3(hAxis, 0, vAxis) * speed * Time.deltaTime;
+
+		rig.MovePosition(transform.position + movement);
 
 		//camera movement
 		temp = transform.position;
 		//left and right
-		if (transform.position.x > 0f) {
+		if (transform.position.x > (origin.x - 50f)) {
 			moveXLeft = true;
 		} else {
 			moveXLeft = false; }
 
-		if (transform.position.x < 35f) {
+		if (transform.position.x < (origin.x + 50f)) {
 			moveXRight = true;
 		} else {
 			moveXRight = false;	}
 
-		if (transform.position.z > 0f) {
+		if (transform.position.z > (origin.z - 50f)){
 			moveZLeft = true;
 		} else {
 			moveZLeft = false;	}
 
-		if (transform.position.z < 35f) {
+		if (transform.position.z < (origin.z + 50f)) {
 			moveZRight = true;
 		} else {
 			moveZRight = false;	}
