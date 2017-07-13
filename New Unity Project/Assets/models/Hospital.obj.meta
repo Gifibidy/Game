@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: e353cecf7532a974c9f79b833149923b
+timeCreated: 1495524693
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Diagnostics
+    100002: EmergencyRoom
+    100004: //RootNode
+    100006: Hospital
+    100008: Intensive_Care
+    100010: Maternity_wards
+    100012: Offices
+    100014: somethingelse
+    100016: Tiger_Cage
+    100018: waiting_room
+    100020: Wards
+    100022: X_ray
+    400000: Diagnostics
+    400002: EmergencyRoom
+    400004: //RootNode
+    400006: Hospital
+    400008: Intensive_Care
+    400010: Maternity_wards
+    400012: Offices
+    400014: somethingelse
+    400016: Tiger_Cage
+    400018: waiting_room
+    400020: Wards
+    400022: X_ray
+    2300000: Diagnostics
+    2300002: EmergencyRoom
+    2300004: Hospital
+    2300006: Intensive_Care
+    2300008: Maternity_wards
+    2300010: Offices
+    2300012: somethingelse
+    2300014: Tiger_Cage
+    2300016: waiting_room
+    2300018: Wards
+    2300020: X_ray
+    3300000: Diagnostics
+    3300002: EmergencyRoom
+    3300004: Hospital
+    3300006: Intensive_Care
+    3300008: Maternity_wards
+    3300010: Offices
+    3300012: somethingelse
+    3300014: Tiger_Cage
+    3300016: waiting_room
+    3300018: Wards
+    3300020: X_ray
+    4300000: Diagnostics
+    4300002: EmergencyRoom
+    4300004: Hospital
+    4300006: Intensive_Care
+    4300008: Maternity_wards
+    4300010: Offices
+    4300012: somethingelse
+    4300014: Tiger_Cage
+    4300016: waiting_room
+    4300018: Wards
+    4300020: X_ray
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

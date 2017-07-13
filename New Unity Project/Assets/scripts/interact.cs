@@ -8,10 +8,10 @@ public class interact : MonoBehaviour {
 
 	GameObject info;
 	public string text_info;
-
+	public string blank;
 	void Start () {
-		info = GameObject.Find("item_Info");
-
+		info = GameObject.Find("textGirl");
+		blank = " ";
 	}
 
 
@@ -31,6 +31,8 @@ public class interact : MonoBehaviour {
 
 				} else {
 					this.gameObject.GetComponent<Renderer>().material.color = Color.black;
+					info.GetComponent<Text>().text = blank;
+					Debug.Log (" blank ");
 				}
 			}
 		} 
